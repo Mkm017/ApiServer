@@ -21,3 +21,4 @@ tensorboard-data-server==0.7.2
 tensorflow==2.20.0
 tornado==6.5.2
 uvicorn==0.35.0
+mysql-connector-python
