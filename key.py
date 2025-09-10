@@ -18,8 +18,7 @@ MODEL_PATH = 'garbage_classification_model.h5'
 #DATA_DIR = 'Data'
 
 # Get class names from the data directory
-if not os.path.exists(DATA_DIR):
-    raise FileNotFoundError(f"The directory '{DATA_DIR}' does not exist.")
+
 class_names = ['battery', 'biological', 'brown-glass', 'cardboard', 'clothes', 'green-glass', 'metal', 'paper', 'plastic', 'shoes', 'trash', 'white-glass'] #sorted(os.listdir(DATA_DIR))
 
 # --- Database Connection ---
